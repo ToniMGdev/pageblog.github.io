@@ -1,0 +1,34 @@
+html,
+body {
+    margin: 0;
+    /* habitual para resertar el margin por defecto del navegador */
+    padding: 0;
+    /* habitual para resertar el padding por defecto del navegador */
+    font-family: "NunitoSans-Regular", "Verdana", "Helvetica", sans-serif;
+    background-image: url(../img/bg-pattern3.png);
+   
+}
+
+#container {
+    max-width: 1200px; /* tamaño maximo */
+    margin: 0 auto; /* centrar */
+}
+
+.text-secondary {
+    color: var(--secondary-color); /*el color del texto de todo lo clasificado como "secundario" */
+}
+
+ul { /* quitar estilos por defecto a las listas */
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a { 
+    color: var(--primary-color);
+    text-decoration: none; /*quitar decoracion */
+    transition: all 0.3s; /* transicion */
+}
+a:hover{ /*cambios al pasar el raton*/
+    color: var(--primary-color-dark);
+}

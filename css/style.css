@@ -1,0 +1,9 @@
+
+@import "./fonts.css"; /* importando el css de las fuentes */
+@import "./common.css"; /* importando el css de los elementos comunes */
+@import "./header.css";
+@import "./colors-theme3.css";
+@import "./main-menu.css";
+@import "./aside.css";
+@import "./content.css";
+@import "./footer.css";

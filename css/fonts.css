@@ -1,0 +1,9 @@
+@font-face { /* introducrio font 1 */
+    font-family: "NunitoSans-Regular";
+    src: url("../fonts/NunitoSans-Regular.ttf");
+}
+
+@font-face { /* introducrio font 2 */
+    font-family: "NunitoSans-Bold";
+    src: url("../fonts/NunitoSans-Bold.ttf");
+}
