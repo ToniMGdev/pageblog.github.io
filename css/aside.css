@@ -62,6 +62,10 @@ aside h3 {
     margin: 15px 0;
 }
 
+.widget ul li a:hover {
+    text-decoration: underline;
+}
+
 .widget blockquote {
     margin: 0;
     color: var(--gray-color-dark);

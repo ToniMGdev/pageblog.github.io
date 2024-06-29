@@ -5,7 +5,8 @@ body {
     padding: 0;
     /* habitual para resertar el padding por defecto del navegador */
     font-family: "NunitoSans-Regular", "Verdana", "Helvetica", sans-serif;
-    background-image: url(../img/bg-pattern3.png);
+    background-image: url(../img/bg-pattern4.jpg);
+    background-size: cover;
    
 }
 
@@ -16,6 +17,7 @@ body {
 
 .text-secondary {
     color: var(--secondary-color); /*el color del texto de todo lo clasificado como "secundario" */
+    font-style: italic;
 }
 
 ul { /* quitar estilos por defecto a las listas */

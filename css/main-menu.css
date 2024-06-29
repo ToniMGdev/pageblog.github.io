@@ -64,6 +64,13 @@ background-color: var(--primary-color-dark);
 
     #main-menu > ul > li > ul > li {
         text-align: center;
+        
+    }
+
+    #main-menu > ul > li > ul { /*solo "ul" dentro de "li" dentro de "ul" en la id */
+        display: block;
+        position: initial;
+        
     }
 
 }

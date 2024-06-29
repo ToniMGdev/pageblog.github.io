@@ -7,12 +7,21 @@ header {
 }
 
 header img {
-    width: 150px;
+    width: 120px;
 }
 
 header h1 {
     font-size: 50px;
     margin: 0;
-    text-shadow: 2px 2px 5px #ccc; /*sombra en las letras */
+    text-shadow: 3px 3px 3px #ccc; /*sombra en las letras */
     color: var(--primary-color); /* usamos "var" y añadimos la varible del css de colores */
+}
+
+@media (max-width: 700px) {
+    
+    header h1 {
+        font-size: 35px;
+
+    }
+
 }

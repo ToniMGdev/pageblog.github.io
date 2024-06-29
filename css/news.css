@@ -1,0 +1,38 @@
+.news{
+    padding: 5%;
+    
+}
+
+.news h1{
+    margin: 280px 0 0;
+    font-size: 30px;
+    color: var(--secondary-color);
+    text-shadow: 3px 3px 3px var(--gray-color);
+}
+
+
+.news img{
+    width: 100%;
+    overflow: auto;
+}
+
+.news p{
+    text-align: justify;
+}
+
+.content-news{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 3px 3px 3px var(--gray-color);
+    border: solid 1px var(--gray-color);
+}
+
+
+
+
+@media (max-width: 700px) {
+    .news h1{
+        margin: 630px 0 0;
+    }
+
+}
